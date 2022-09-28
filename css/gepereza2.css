@@ -1,0 +1,52 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	
+	background-color: #D0B0B3;
+	height: auto;
+}
+.logo{
+	width: 10%;
+	height: 10%;
+}
+p{
+	margin: 2em;
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+	background-color: #FFE4E1;
+}
+.bloqleft{
+	padding: 1em;
+
+	
+}
+.bloqright{
+	padding: 5em;
+
+}
+
+
+.sentada{
+	margin-left: 15px;
+	border-radius: 10%;
+	box-shadow: 15px 15px lightgray;
+	width: 80%;
+}
+.dropdown-menu{
+	text-align: right;
+}
+li{
+	font-size: 20px;
+}
+
+.icones{
+	margin: 4em;
+	width: 15%;
+	
+}

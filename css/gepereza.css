@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	
+	background: #1c2e56;
+}
+
+.izquierda
+{
+	display: flex;
+	
+	flex-direction: column;
+	justify-content: center;
+	float: left;
+	background: #d0b0b3;
+	width: 50%;
+	height: 600px;
+	padding: 5px;
+	border-radius: 0 0 150% 0;
+}
+.derecha
+{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	float: left;
+	width: 40%;
+}
+.logo
+{
+	margin-top: 0 ;
+	margin-left: 25%;
+	width: 40%;
+	height: 30%;
+}
+.sentada
+{
+	margin-top: 20px;
+	width: 100%;
+	height: 100%;
+	border-radius: 100% ;
+	box-shadow: grey 20px 20px 10px;
+}
+.group-buttons
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	float: left;
+	width: 90%;
+	height: 300px;
+	padding: 15px;
+}
+
+
+
+.botones{
+	height: 30px;
+	width: 200px;
+	background-color: #d4d3d3;
+	color: 1c2e56;
+	border-radius: 15px;
+	border: none;
+}
+.botones:hover{
+	width: 300px;
+	background-color: #1c2e56;
+	color: white;
+	font-weight: bold;
+}
+
+.w3-modal
+{ 
+	opacity:0.8;
+	
+}
+.hr-modal
+{
+	color: #FFA07A ;
+	position: absolute;
+}
+
+.footer
+{
+	position: fixed;
+	
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #d4d3d3;
+	font-size: 40px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 80% 80% 0% 0%;
+
+
+}
+
+#fone
+{
+	font-family: Arial Narrow, sans-serif;
+
+	color: black;
+	font-weight: bold;
+
+
+}
+.icones
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+	animation-name: pulsar;
+	animation-direction: alternate;
+	animation-duration: 0.9s;
+	animation-timing-function: ease-in;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}	
+
+
+
+@media (max-width: 768px  ){
+
+}
+@media (max-width: 630px  ){
+	
+}
+@media (max-width: 540px  ){
+.izquierda{
+	width: 100%;
+	height: 300px;
+	border-radius: 0 0 50% 0;
+}	
+.sentada
+{
+	margin-left: 150%;
+	margin-top: 20px;
+	width: 200%;
+	height: 200%;
+	border-radius: 100% ;
+	box-shadow: grey 20px 20px 10px;
+}
+.footer
+{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	margin-left: 0%;
+	margin-right: 0%;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 80% 80% 0% 0%;
+}
+.icones
+{
+	width: 80%;
+	height: 80%;
+}	
+#fone
+{
+	font-family: Arial Narrow, sans-serif;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+}
+
+
+
